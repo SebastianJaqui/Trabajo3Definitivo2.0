@@ -107,3 +107,4 @@ print(f"Codigo: {page.status_code}")
 from bs4 import BeautifulSoup
 page = BeautifulSoup(page.content, 'html.parser')
 print(page.prettify())
+
